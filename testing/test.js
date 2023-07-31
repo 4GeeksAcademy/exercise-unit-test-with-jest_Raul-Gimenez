@@ -24,6 +24,7 @@ describe('conversion', () => {
         
         // hago mi comparacion (la prueba)
         expect(fromEuroToDollar(eurosToConversion)).toBe(totalDollars);
+    })
 
     test(`One Dollar should be ${ratioDollarYen} Yens`, function(){
         const { fromDollarToYen } = require('./app.js')
